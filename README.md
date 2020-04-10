@@ -10,12 +10,12 @@ umi@3 全家桶方案
 
 > umi.js 314.05KB
 
-| 包名 | Parsed 大小 |
-|  :-  | :-:  |
-| core-js | 121.36KB |
-| react-dom | 115.45KB |
-| internals | 49.25KB |
-| @umijs | 17.84KB |
+| 包名      | Parsed 大小 |
+| :-------- | :---------: |
+| core-js   |  121.36KB   |
+| react-dom |  115.45KB   |
+| internals |   49.25KB   |
+| @umijs    |   17.84KB   |
 
 ## [0.0.2](https://github.com/umijs/next-app/tree/002layout) (2020-04-10)
 
@@ -25,13 +25,13 @@ umi@3 全家桶方案
 
 > umi.js 3.03MB
 
-| 包名 | Parsed 大小 |
-|  :-  | :-:  |
-| @ant-design | 1.03MB |
-| 其中 icons | 902.29KB |
-| antd | 965.18KB |
-| moment | 345.51KB |
-| @umijs | 17.84KB |
+| 包名        | Parsed 大小 |
+| :---------- | :---------: |
+| @ant-design |   1.03MB    |
+| 其中 icons  |  902.29KB   |
+| antd        |  965.18KB   |
+| moment      |  345.51KB   |
+| @umijs      |   17.84KB   |
 
 增加 layout 插件之后，包过大。后续[issues/4](https://github.com/umijs/next-app/issues/4)
 
@@ -43,13 +43,13 @@ umi@3 全家桶方案
 
 > umi.js 3.1MB
 
-| 包名 | Parsed 大小 |
-|  :-  | :-:  |
-| @ant-design | 1.03MB |
-| 其中 icons | 902.29KB |
-| antd | 965.18KB |
-| moment | 345.51KB |
-| @umijs | 31.92KB |
+| 包名        | Parsed 大小 |
+| :---------- | :---------: |
+| @ant-design |   1.03MB    |
+| 其中 icons  |  902.29KB   |
+| antd        |  965.18KB   |
+| moment      |  345.51KB   |
+| @umijs      |   31.92KB   |
 
 ## [0.0.4](https://github.com/umijs/next-app/tree/004models) (2020-04-10)
 
@@ -59,13 +59,13 @@ umi@3 全家桶方案
 
 > umi.js 3.1M
 
-| 包名 | Parsed 大小 |
-|  :-  | :-:  |
-| @ant-design | 1.03MB |
-| 其中 icons | 758.28KB |
-| antd | 691.55KB |
-| moment | 345.51KB |
-| @umijs | 33.76KB |
+| 包名        | Parsed 大小 |
+| :---------- | :---------: |
+| @ant-design |   1.03MB    |
+| 其中 icons  |  758.28KB   |
+| antd        |  691.55KB   |
+| moment      |  345.51KB   |
+| @umijs      |   33.76KB   |
 
 ## [0.0.5]() (2020-04-10)
 
@@ -75,10 +75,10 @@ umi@3 全家桶方案
 
 > umi.js 3.11M
 
-| 包名 | Parsed 大小 |
-|  :-  | :-:  |
-| @ant-design | 1.03MB |
-| 其中 icons | 766.51KB |
-| antd | 965.27KB |
-| moment | 345.51KB |
-| @umijs | 33.76KB |
+| 包名        | Parsed 大小 |
+| :---------- | :---------: |
+| @ant-design |   1.03MB    |
+| 其中 icons  |  766.51KB   |
+| antd        |  965.27KB   |
+| moment      |  345.51KB   |
+| @umijs      |   33.76KB   |

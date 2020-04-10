@@ -4,7 +4,7 @@ export default {
   },
   '/api/initData': {
     data: {
-      username: 'umi developer'
+      username: 'umi developer',
     },
   },
 };
