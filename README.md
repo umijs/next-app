@@ -125,6 +125,8 @@ umi@3 全家桶方案
 
 添加国际化，可以动态切换语言，layout 插件也支持国际化。选用 `@umijs/plugin-locale`。
 
+国际化，antd 日期选择器无法正确切换。后续[issues/9](https://github.com/umijs/next-app/issues/9)。
+
 ![0.0.8 build 3.15M](./analyze/20200410008.jpg)
 
 > umi.js 3.15M
