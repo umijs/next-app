@@ -6,7 +6,7 @@ const routes: IBestAFSRoute[] = [
     component: '@/pages/index',
     menu: {
       // 兼容此写法
-      name: '你好',
+      name: 'hello',
       icon: 'smile',
     },
   },
@@ -19,7 +19,7 @@ const routes: IBestAFSRoute[] = [
     path: '/welcome',
     component: '@/pages/welcome',
     menu: {
-      name: '欢迎',
+      name: 'welcome',
       icon: 'smile',
     },
     access: 'hasToken', // 这里写的是 src/access 里面的变量名

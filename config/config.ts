@@ -7,7 +7,9 @@ export default defineConfig({
   },
   layout: {
     name: 'Umi App',
+    locale: true,
   },
   routes,
   antd: {},
+  locale: {},
 });

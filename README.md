@@ -120,3 +120,19 @@ umi@3 全家桶方案
 | @ant-design |   1.03MB    |
 | 其中 icons  |  903.58KB   |
 | moment      |  345.51KB   |
+
+## [0.0.8]() (2020-04-10)
+
+添加国际化，可以动态切换语言，layout 插件也支持国际化。选用 `@umijs/plugin-locale`。
+
+![0.0.8 build 3.15M](./analyze/20200410008.jpg)
+
+> umi.js 3.15M
+
+| 包名        | Parsed 大小 |
+| :---------- | :---------: |
+| @umijs      |   1.03MB    |
+| 其中 antd   |  906.01KB   |
+| @ant-design |   1.03MB    |
+| 其中 icons  |  903.58KB   |
+| moment      |  345.51KB   |
