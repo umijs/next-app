@@ -35,9 +35,8 @@
   "lint-staged": {
     "src/**/*.less": "stylelint --syntax less",
     "src/**/*.{js,jsx}": "npm run lint-staged:js",
-    "src/**/*.{js,ts,tsx,json,jsx,less}": [
-      "npm run prettier",
-      "git add"
+    "**/*.{js,jsx,tsx,ts,less,md,json}": [
+      "prettier --write"
     ]
   },
   "devDependencies": {
