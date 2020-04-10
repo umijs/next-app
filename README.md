@@ -82,3 +82,21 @@ umi@3 全家桶方案
 | antd        |  965.27KB   |
 | moment      |  345.51KB   |
 | @umijs      |   33.76KB   |
+
+## [0.0.6]() (2020-04-10)
+
+添加权限校验，包含路由级别权限和组件级别权限。支持动态修改权限数据。选用 `@umijs/plugin-access`。
+
+动态设置路由权限无效，权限数据有变更，权限校验无更新。后续[issues/6](https://github.com/umijs/next-app/issues/6)
+
+![0.0.6 build 3.11M](./analyze/20200410006.jpg)
+
+> umi.js 3.11M
+
+| 包名        | Parsed 大小 |
+| :---------- | :---------: |
+| @ant-design |   1.03MB    |
+| 其中 icons  |  766.51KB   |
+| antd        |  965.27KB   |
+| moment      |  345.51KB   |
+| @umijs      |   32.41KB   |
