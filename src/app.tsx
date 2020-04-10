@@ -1,6 +1,7 @@
 import React from 'react';
 import { ResponseError, Context } from 'umi-request';
 import { DefaultFooter } from '@ant-design/pro-layout';
+import { initData } from '@/services/api';
 
 // @umijs/plugin-layout 配置
 export const layout = {
@@ -17,6 +18,7 @@ export const layout = {
   ), // return string || ReactNode;
 };
 
+// @umijs/plugin-request 配置
 // 请求中间件 就是发起请求和响应之后需要统一操作数据就写这
 // https://github.com/umijs/umi-request#example-1
 const middleware = async (ctx: Context, next: any) => {
@@ -33,3 +35,9 @@ export const request = {
     console.log(error);
   },
 };
+
+// @umijs/plugin-initial-state 配置
+export async function getInitialState() {
+  const { data = {} } = await initData();
+  return data;
+}
