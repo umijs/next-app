@@ -103,7 +103,7 @@ umi@3 全家桶方案
 
 ## [0.0.7]() (2020-04-10)
 
-添加antd插件，预计使用按需加载antd使用深色主题。选用 `@umijs/plugin-antd`。
+添加 antd 插件，预计使用按需加载 antd 使用深色主题。选用 `@umijs/plugin-antd`。
 
 设置深色主题报错。后续[issues/7](https://github.com/umijs/next-app/issues/7)。
 
@@ -115,8 +115,8 @@ umi@3 全家桶方案
 
 | 包名        | Parsed 大小 |
 | :---------- | :---------: |
-| @umijs |   1.03MB    |
-| 其中 antd  |  905.85KB   |
+| @umijs      |   1.03MB    |
+| 其中 antd   |  905.85KB   |
 | @ant-design |   1.03MB    |
 | 其中 icons  |  903.58KB   |
 | moment      |  345.51KB   |

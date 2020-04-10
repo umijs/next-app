@@ -9,6 +9,5 @@ export default defineConfig({
     name: 'Umi App',
   },
   routes,
-  antd: {
-  }
+  antd: {},
 });
