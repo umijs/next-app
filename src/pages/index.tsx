@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useRequest, useModel, useAccess, Link } from 'umi';
 import { queryHello } from '@/services/api';
 
+
 const IndexPage = () => {
   const { setHello } = useModel('home');
   const { initialState } = useModel('@@initialState');

@@ -100,3 +100,23 @@ umi@3 全家桶方案
 | antd        |  965.27KB   |
 | moment      |  345.51KB   |
 | @umijs      |   32.41KB   |
+
+## [0.0.7]() (2020-04-10)
+
+添加antd插件，预计使用按需加载antd使用深色主题。选用 `@umijs/plugin-antd`。
+
+设置深色主题报错。后续[issues/7](https://github.com/umijs/next-app/issues/7)。
+
+无按需加载组件。后续[issues/8](https://github.com/umijs/next-app/issues/8)。
+
+![0.0.7 build 3.09M](./analyze/20200410007.jpg)
+
+> umi.js 3.09M
+
+| 包名        | Parsed 大小 |
+| :---------- | :---------: |
+| @umijs |   1.03MB    |
+| 其中 antd  |  905.85KB   |
+| @ant-design |   1.03MB    |
+| 其中 icons  |  903.58KB   |
+| moment      |  345.51KB   |
