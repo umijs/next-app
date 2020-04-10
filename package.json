@@ -1,6 +1,6 @@
 {
   "name": "next-app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -54,6 +54,7 @@
     "yorkie": "^2.0.0"
   },
   "dependencies": {
+    "@umijs/plugin-layout": "^0.7.0",
     "umi": "^3.1.1"
   }
 }
