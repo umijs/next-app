@@ -8,4 +8,4 @@ umi@3 全家桶方案
 
 ## [0.0.2]() (2020-04-10)
 
-添加布局，增加layout及相关配置。选用 `@umijs/plugin-layout`。
+添加布局，增加 layout 及相关配置。选用 `@umijs/plugin-layout`。
