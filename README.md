@@ -67,7 +67,7 @@ umi@3 全家桶方案
 | moment      |  345.51KB   |
 | @umijs      |   33.76KB   |
 
-## [0.0.5]() (2020-04-10)
+## [0.0.5](https://github.com/umijs/next-app/tree/005initstate) (2020-04-10)
 
 添加项目初始化数据。选用 `@umijs/plugin-initial-state`。
 
@@ -83,7 +83,7 @@ umi@3 全家桶方案
 | moment      |  345.51KB   |
 | @umijs      |   33.76KB   |
 
-## [0.0.6]() (2020-04-10)
+## [0.0.6](https://github.com/umijs/next-app/tree/006access) (2020-04-10)
 
 添加权限校验，包含路由级别权限和组件级别权限。支持动态修改权限数据。选用 `@umijs/plugin-access`。
 
@@ -101,7 +101,7 @@ umi@3 全家桶方案
 | moment      |  345.51KB   |
 | @umijs      |   32.41KB   |
 
-## [0.0.7]() (2020-04-10)
+## [0.0.7](https://github.com/umijs/next-app/tree/007antd) (2020-04-10)
 
 添加 antd 插件，预计使用按需加载 antd 使用深色主题。选用 `@umijs/plugin-antd`。
 
@@ -121,7 +121,7 @@ umi@3 全家桶方案
 | 其中 icons  |  903.58KB   |
 | moment      |  345.51KB   |
 
-## [0.0.8]() (2020-04-10)
+## [0.0.8](https://github.com/umijs/next-app/tree/008locale) (2020-04-10)
 
 添加国际化，可以动态切换语言，layout 插件也支持国际化。选用 `@umijs/plugin-locale`。
 
@@ -137,4 +137,20 @@ umi@3 全家桶方案
 | 其中 antd   |  906.01KB   |
 | @ant-design |   1.03MB    |
 | 其中 icons  |  903.58KB   |
+| moment      |  345.51KB   |
+
+## [0.0.9]() (2020-04-13)
+
+添加微前端。主要是添加主应用的配置，应用间的通信未添加。选用 `@umijs/plugin-qiankun`。
+
+![0.0.9 build 3.23M](./analyze/20200413009.jpg)
+
+> umi.js 3.23M
+
+| 包名        | Parsed 大小 |
+| :---------- | :---------: |
+| @umijs      |   998.88KB    |
+| 其中 antd   |  839.87KB   |
+| @ant-design |   1.03MB    |
+| 其中 icons  |  766.51KB   |
 | moment      |  345.51KB   |

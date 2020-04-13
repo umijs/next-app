@@ -1,5 +1,5 @@
 import { defineConfig } from 'umi';
-import routes from './routes';
+import qiankunConfig from './qiankun';
 
 export default defineConfig({
   nodeModulesTransform: {
@@ -9,7 +9,7 @@ export default defineConfig({
     name: 'Umi App',
     locale: true,
   },
-  routes,
   antd: {},
   locale: {},
+  ...qiankunConfig
 });
