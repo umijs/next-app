@@ -11,5 +11,5 @@ export default defineConfig({
   },
   antd: {},
   locale: {},
-  ...qiankunConfig
+  ...qiankunConfig,
 });

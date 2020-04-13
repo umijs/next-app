@@ -149,7 +149,7 @@ umi@3 全家桶方案
 
 | 包名        | Parsed 大小 |
 | :---------- | :---------: |
-| @umijs      |   998.88KB    |
+| @umijs      |  998.88KB   |
 | 其中 antd   |  839.87KB   |
 | @ant-design |   1.03MB    |
 | 其中 icons  |  766.51KB   |
