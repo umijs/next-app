@@ -10,6 +10,8 @@ export default defineConfig({
     locale: true,
   },
   antd: {},
-  locale: {},
+  locale: {
+    antd: true,
+  },
   ...qiankunConfig,
 });
