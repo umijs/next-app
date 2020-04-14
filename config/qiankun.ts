@@ -35,4 +35,4 @@ const qiankunConfig = {
   },
 };
 
-export default isQiankun ? qiankunConfig : {routes};
+export default isQiankun ? qiankunConfig : { routes };

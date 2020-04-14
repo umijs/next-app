@@ -1,6 +1,6 @@
 import { Reducer } from 'redux';
 import { Effect } from 'umi';
-import { queryHello } from '@/services/api'
+import { queryHello } from '@/services/api';
 
 export interface DvaModelState {
   name: string;
@@ -28,10 +28,11 @@ const DvaModel: DvaModelType = {
     *query({ payload }, { call, put }) {
       const data = yield queryHello();
       yield put({
-        type: 'save', payload: {
-          name: data.data
-        }
-      })
+        type: 'save',
+        payload: {
+          name: data.data,
+        },
+      });
     },
   },
   reducers: {
