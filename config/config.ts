@@ -12,6 +12,6 @@ export default defineConfig({
   routes,
   antd: {},
   locale: {
-    antd: true
+    antd: true,
   },
 });
