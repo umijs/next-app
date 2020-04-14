@@ -45,6 +45,7 @@
   "devDependencies": {
     "@types/express": "^4.17.2",
     "@umijs/fabric": "2.0.0",
+    "@umijs/preset-ui": "^2.1.10",
     "chalk": "^3.0.0",
     "cross-env": "6.0.3",
     "eslint": "6.8.0",
@@ -66,6 +67,11 @@
     "@umijs/plugin-model": "^2.2.0",
     "@umijs/plugin-qiankun": "^2.1.0",
     "@umijs/plugin-request": "^2.3.2",
-    "umi": "^3.1.1"
+    "classnames": "^2.2.6",
+    "moment": "^2.22.2",
+    "omit.js": "^1.0.2",
+    "qs": "^6.7.0",
+    "umi": "^3.1.1",
+    "umi-request": "^1.0.0"
   }
 }
