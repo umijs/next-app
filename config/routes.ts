@@ -16,6 +16,14 @@ const routes: IBestAFSRoute[] = [
     layout: false,
   },
   {
+    path: '/dva',
+    component: '@/pages/dva',
+    menu: {
+      name: 'dva',
+      icon: 'smile',
+    },
+  },
+  {
     path: '/welcome',
     component: '@/pages/welcome',
     menu: {

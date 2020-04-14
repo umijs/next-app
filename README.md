@@ -154,3 +154,19 @@ umi@3 全家桶方案
 | @ant-design |   1.03MB    |
 | 其中 icons  |  766.51KB   |
 | moment      |  345.51KB   |
+
+## [0.1.0]() (2020-04-14)
+
+添加dva。选用 `@umijs/dva`。
+
+![0.1.0 build 3.22M](./analyze/20200414010.jpg)
+
+> umi.js 3.22M
+
+| 包名        | Parsed 大小 |
+| :---------- | :---------: |
+| @umijs      |  996.63KB   |
+| 其中 antd   |  842.85KB   |
+| @ant-design |   1.03MB    |
+| 其中 icons  |  903.58KB   |
+| moment      |  345.51KB   |
