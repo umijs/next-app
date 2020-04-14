@@ -157,9 +157,7 @@ umi@3 全家桶方案
 
 ## [0.1.0]() (2020-04-14)
 
-添加 dva。选用 `@umijs/dva`。
-
-![0.1.0 build 3.22M](./analyze/20200414010.jpg)
+添加 dva。选用 `@umijs/dva`。 ![0.1.0 build 3.22M](./analyze/20200414010.jpg)
 
 > umi.js 3.22M
 
@@ -170,3 +168,19 @@ umi@3 全家桶方案
 | @ant-design |   1.03MB    |
 | 其中 icons  |  903.58KB   |
 | moment      |  345.51KB   |
+
+## [0.1.1]() (2020-04-14)
+
+添加 umi ui。选用 `@umijs/preset-ui`。后续[umi issues/4456](https://github.com/umijs/umi/issues/4456)
+
+![0.1.1 build 3.21M](./analyze/20200414011.jpg)
+
+> umi.js 3.21M
+
+| 包名        | Parsed 大小 |
+| :---------- | :---------: |
+| @ant-design |   1.02MB    |
+| 其中 icons  |  903.58KB   |
+| antd        |  842.85KB   |
+| moment      |  345.51KB   |
+| @umijs      |  153.78KB   |
