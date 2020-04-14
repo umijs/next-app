@@ -1,10 +1,13 @@
 {
   "name": "next-app",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "umi dev",
+    "dev": "umi dev",
+    "start:qiankun": "npm-run-all --parallel start:*",
+    "start:master": "cross-env QIANKUNAPP=master umi dev",
+    "start:slave": "cross-env APP_ROOT=slave PORT=3000 umi dev",
     "build": "cross-env ANALYZE=1 umi build",
     "lint": "npm run lint:js && npm run lint:style && npm run lint:prettier",
     "lint-staged": "lint-staged",
@@ -48,6 +51,7 @@
     "eslint-plugin-eslint-comments": "^3.1.2",
     "express": "^4.17.1",
     "lint-staged": "^9.5.0",
+    "npm-run-all": "^4.1.5",
     "prettier": "^2.0.2",
     "stylelint": "^12.0.1",
     "yorkie": "^2.0.0"
@@ -59,6 +63,7 @@
     "@umijs/plugin-layout": "^0.7.0",
     "@umijs/plugin-locale": "^0.4.4",
     "@umijs/plugin-model": "^2.2.0",
+    "@umijs/plugin-qiankun": "^2.1.0",
     "@umijs/plugin-request": "^2.3.2",
     "umi": "^3.1.1"
   }
