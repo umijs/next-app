@@ -59,19 +59,20 @@
   },
   "dependencies": {
     "@umijs/plugin-access": "^2.3.0",
-    "@umijs/plugin-antd": "^0.4.3",
     "@umijs/plugin-dva": "^0.6.5",
-    "@umijs/plugin-initial-state": "^2.2.0",
-    "@umijs/plugin-layout": "^0.7.0",
     "@umijs/plugin-locale": "^0.4.4",
-    "@umijs/plugin-model": "^2.2.0",
     "@umijs/plugin-qiankun": "^2.1.0",
-    "@umijs/plugin-request": "^2.3.2",
     "classnames": "^2.2.6",
     "moment": "^2.22.2",
     "omit.js": "^1.0.2",
     "qs": "^6.7.0",
-    "umi": "^3.1.1",
-    "umi-request": "^1.0.0"
+    "umi-request": "^1.0.0",
+    "@umijs/plugin-access": "^2.3.1",
+    "@umijs/plugin-antd": "^0.5.1",
+    "@umijs/plugin-initial-state": "^2.2.1",
+    "@umijs/plugin-layout": "^0.9.2",
+    "@umijs/plugin-model": "^2.3.0",
+    "@umijs/plugin-request": "^2.3.2",
+    "umi": "^3.1.2"
   }
 }
