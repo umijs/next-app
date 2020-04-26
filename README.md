@@ -107,7 +107,7 @@ umi@3 全家桶方案
 
 设置深色主题报错。后续[issues/7](https://github.com/umijs/next-app/issues/7)。
 
-无按需加载组件。后续[issues/8](https://github.com/umijs/next-app/issues/8)。
+无按需加载组件。后续[issues/8](https://github.com/umijs/next-app/issues/8)，已修复。
 
 ![0.0.7 build 3.09M](./analyze/20200410007.jpg)
 
