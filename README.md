@@ -175,7 +175,25 @@ umi@3 全家桶方案
 
 ![0.1.1 build 3.21M](./analyze/20200414011.jpg)
 
+> umi.js 2.93M (几个plugin修复之后包变小了，0.3M)
+> 编译时间 39.80s
+
+| 包名        | Parsed 大小 |
+| :---------- | :---------: |
+| @ant-design |   1.02MB    |
+| 其中 icons  |  778.93KB   |
+| moment      |  345.51KB   |
+| @umijs      |  531.93.78KB   |
+| 其中 antd        |  328.37.85KB   |
+
+## [0.1.2]() (2020-05-11)
+
+添加 esbuild。选用 `@umijs/plugin-esbuild`。
+
+![0.1.1 build 3.21M](./analyze/20200414011.jpg)
+
 > umi.js 3.21M
+> 编译时间 29.02s
 
 | 包名        | Parsed 大小 |
 | :---------- | :---------: |
