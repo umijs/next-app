@@ -57,14 +57,15 @@
     "yorkie": "^2.0.0"
   },
   "dependencies": {
-    "@umijs/plugin-access": "^2.3.0",
-    "@umijs/plugin-antd": "^0.4.3",
-    "@umijs/plugin-initial-state": "^2.2.0",
-    "@umijs/plugin-layout": "^0.7.0",
-    "@umijs/plugin-locale": "^0.4.4",
-    "@umijs/plugin-model": "^2.2.0",
-    "@umijs/plugin-qiankun": "^2.1.0",
-    "@umijs/plugin-request": "^2.3.2",
-    "umi": "^3.1.1"
+    "@ant-design/pro-layout": "^6.4.19",
+    "@umijs/plugin-access": "^2.3.1",
+    "@umijs/plugin-antd": "^0.8.0",
+    "@umijs/plugin-initial-state": "^2.2.1",
+    "@umijs/plugin-layout": "^0.12.2",
+    "@umijs/plugin-locale": "^0.10.2",
+    "@umijs/plugin-model": "^2.5.3",
+    "@umijs/plugin-qiankun": "^2.14.3",
+    "@umijs/plugin-request": "^2.5.0",
+    "umi": "^3.2.20"
   }
 }
