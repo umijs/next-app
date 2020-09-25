@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "umi dev",
-    "start:master": "cross-env QIANKUNAPP=master umi dev",
-    "start:slave": "cross-env APP_ROOT=slave PORT=3000 umi dev",
+    "start:master": "cross-env UMI_UI=none QIANKUNAPP=master umi dev",
+    "start:slave": "cross-env UMI_UI=none APP_ROOT=slave PORT=3000 umi dev",
     "build": "cross-env ANALYZE=1 umi build",
     "lint": "npm run lint:js && npm run lint:style && npm run lint:prettier",
     "lint-staged": "lint-staged",
