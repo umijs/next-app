@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "umi dev",
-    "start:qiankun": "npm-run-all --parallel start:*",
-    "start:master": "cross-env QIANKUNAPP=master umi dev",
-    "start:slave": "cross-env APP_ROOT=slave PORT=3000 umi dev",
+    "start:master": "cross-env UMI_UI=none QIANKUNAPP=master umi dev",
+    "start:slave": "cross-env UMI_UI=none APP_ROOT=slave PORT=3000 umi dev",
     "build": "cross-env ANALYZE=1 umi build",
     "lint": "npm run lint:js && npm run lint:style && npm run lint:prettier",
     "lint-staged": "lint-staged",
@@ -58,21 +57,22 @@
     "yorkie": "^2.0.0"
   },
   "dependencies": {
+    "@ant-design/pro-layout": "^6.4.19",
     "@umijs/plugin-access": "^2.3.1",
-    "@umijs/plugin-antd": "^0.5.1",
+    "@umijs/plugin-antd": "^0.8.0",
+    "@umijs/plugin-initial-state": "^2.2.1",
+    "@umijs/plugin-layout": "^0.12.2",
+    "@umijs/plugin-locale": "^0.10.2",
+    "@umijs/plugin-model": "^2.5.3",
+    "@umijs/plugin-qiankun": "^2.14.3",
+    "@umijs/plugin-request": "^2.5.0",
+    "umi": "^3.2.20",
     "@umijs/plugin-dva": "^0.6.5",
     "@umijs/plugin-esbuild": "^1.0.0-beta.2",
-    "@umijs/plugin-initial-state": "^2.2.1",
-    "@umijs/plugin-layout": "^0.9.2",
-    "@umijs/plugin-locale": "^0.4.4",
-    "@umijs/plugin-model": "^2.3.0",
-    "@umijs/plugin-qiankun": "^2.1.0",
-    "@umijs/plugin-request": "^2.3.2",
     "classnames": "^2.2.6",
     "moment": "^2.22.2",
     "omit.js": "^1.0.2",
     "qs": "^6.7.0",
-    "umi": "^3.1.2",
     "umi-request": "^1.0.0"
   }
 }
