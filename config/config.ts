@@ -5,6 +5,7 @@ export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
+  dva: {},
   layout: {
     name: 'Umi App',
     locale: true,
@@ -13,5 +14,6 @@ export default defineConfig({
   locale: {
     antd: true,
   },
+  esbuild: {},
   ...qiankunConfig,
 });

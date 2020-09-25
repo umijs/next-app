@@ -1,11 +1,10 @@
 {
   "name": "next-app",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "umi dev",
-    "start:qiankun": "npm-run-all --parallel start:*",
     "start:master": "cross-env QIANKUNAPP=master umi dev",
     "start:slave": "cross-env APP_ROOT=slave PORT=3000 umi dev",
     "build": "cross-env ANALYZE=1 umi build",
@@ -45,6 +44,7 @@
   "devDependencies": {
     "@types/express": "^4.17.2",
     "@umijs/fabric": "2.0.0",
+    "@umijs/preset-ui": "^2.1.10",
     "chalk": "^3.0.0",
     "cross-env": "6.0.3",
     "eslint": "6.8.0",
@@ -66,6 +66,13 @@
     "@umijs/plugin-model": "^2.5.3",
     "@umijs/plugin-qiankun": "^2.14.3",
     "@umijs/plugin-request": "^2.5.0",
-    "umi": "^3.2.20"
+    "umi": "^3.2.20",
+    "@umijs/plugin-dva": "^0.6.5",
+    "@umijs/plugin-esbuild": "^1.0.0-beta.2",
+    "classnames": "^2.2.6",
+    "moment": "^2.22.2",
+    "omit.js": "^1.0.2",
+    "qs": "^6.7.0",
+    "umi-request": "^1.0.0"
   }
 }
